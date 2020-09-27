@@ -5,7 +5,6 @@
       constructor(pdfUrl, pdfcontainer){
           this.pdfUrl = pdfUrl;
           this.pdfcontainer = pdfcontainer;
-          //pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@2.5.207/build/pdf.worker.min.js';
       }
       async loadScript(url) {
           if(this.pdfjsLib) return; 
