@@ -1,6 +1,5 @@
  class pdfViewer {
-      currPage;
-      numPages = 0;thePDF = null;pdfCanvas;pdfUrl;pdfcontainer;pdfjsLib;
+      currPage;numPages = 0;thePDF = null;pdfCanvas;pdfUrl;pdfcontainer;pdfjsLib;
       pdfjsurl = 'https://unpkg.com/pdfjs-dist@2.5.207/build/pdf.min.js';
       pdfworkerurl = 'https://unpkg.com/pdfjs-dist@2.5.207/build/pdf.worker.min.js';
       constructor(pdfUrl, pdfcontainer){
